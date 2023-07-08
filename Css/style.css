@@ -1,0 +1,84 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section design */
+header{
+    background-color: whitesmoke;
+}
+.logo_design{
+    padding:5px;
+}
+.address_design{
+    text-decoration: none;
+    list-style: none;
+    color:palevioletred;
+    font-size: 20px;
+    margin-left: 70px;
+    border:2px solid palevioletred;
+}
+.btn_design{
+    border-radius: 5px;
+    margin-left: 100px;
+}
+nav ul>li{
+    list-style: none;
+    text-decoration: none;
+    border:1px solid palevioletred;
+    border-radius: 40px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap:24px;
+}
+nav ul li a{
+    font-size: smaller;
+    color:palevioletred
+}
+
+/* list left side design */
+.list_style{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(128, 129, 129);
+    font-size: 25px;
+    font-weight: 300;
+}
+.back_color{
+    background-color: whitesmoke;
+}
+ul li{
+    padding: 8px 30px;
+}
+ul li a:hover{
+    background: rgb(250, 212, 218);
+}
+/* main section food item */
+main{
+    background-color: whitesmoke;
+}
+.width_design{
+    max-width: 50%;
+}
+.biryani_image{
+    display: flex;
+    margin: 5px;
+}
+.biryani{
+    color:orange;
+}
+.image_design{
+    height: 200px;
+    width: 200px;
+    padding :5px;
+    border-radius:100%;
+}
+.biryani_items{
+    background-color: crimson;
+    margin: 10px;
+}
