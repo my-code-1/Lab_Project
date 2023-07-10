@@ -1,12 +1,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* common style shared */
+/* .positon_related{
+    position: fixed;
+} */
 /* header section design */
 header{
     background-color: whitesmoke;
 }
 .logo_design{
     padding:5px;
+    border-radius: 50px;
 }
 .address_design{
     text-decoration: none;
@@ -51,9 +56,12 @@ ul li a{
 }
 .back_color{
     background-color: whitesmoke;
+    /* padding-right: 50px; */
+    margin-right: 0px;
+    
 }
 ul li{
-    padding: 8px 30px;
+    padding: 8px 10px;
 }
 ul li a:hover{
     background: rgb(250, 212, 218);
@@ -67,18 +75,56 @@ main{
 }
 .biryani_image{
     display: flex;
-    margin: 5px;
+    margin: 5px 2px 5px 5px;
 }
 .biryani{
     color:orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 }
 .image_design{
-    height: 200px;
-    width: 200px;
-    padding :5px;
+    height: 190px;
+    width: 190px;
+    padding:30px;
     border-radius:100%;
 }
+.image_design_2{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border-radius:100%;
+    margin-left: 20px;
+}
 .biryani_items{
+    height: 190px;
+    width: 190px;
     background-color: crimson;
-    margin: 10px;
+    margin: 5px;
+}
+section{
+    margin-right: 0px;
+}
+.title_col{
+    text-align: right;
+}
+/* design right side main */
+.container_flex{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+} 
+.img_text{
+    margin-top: 10px;
+    color: grey;
+    margin-left: 10px;
+}
+.imgation{
+    margin-left: 10px;
+    margin-right: 0;
+}
+.imgation>.imag{
+    margin-left: 50px;
+}
+.imgation>.imag_1{
+    margin-left: 30px;
 }
