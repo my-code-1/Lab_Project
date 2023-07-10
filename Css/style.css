@@ -19,7 +19,9 @@ header{
     color:palevioletred;
     font-size: 20px;
     margin-left: 70px;
+    padding:5px;
     border:2px solid palevioletred;
+    border-radius: 5px;
 }
 .btn_design{
     border-radius: 5px;
@@ -78,7 +80,7 @@ main{
     margin: 5px 2px 5px 5px;
 }
 .biryani{
-    color:orange;
+    color:crimson;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
 }
@@ -98,8 +100,9 @@ main{
 .biryani_items{
     height: 190px;
     width: 190px;
-    background-color: crimson;
-    margin: 5px;
+    background-color: rgb(54, 49, 50);
+    box-shadow: 7px 5px 5px crimson;
+    margin: 6px;
 }
 section{
     margin-right: 0px;
